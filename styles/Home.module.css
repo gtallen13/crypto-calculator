@@ -29,9 +29,36 @@
 .frmInput:focus {
   outline: none;
 }
+.selectInput {
+  width: 54%;
+}
+.selectInput:focus {
+  outline: none;
+}
 .frmRow {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 10px;
+}
+@media all and (max-width: 968px) {
+  .frmCrypto {
+    width: 75%;
+  }
+  .frmInput {
+    width: 50%;
+  }
+  .selectInput {
+    width: 54%;
+  }
+}
+@media all and (max-width: 480px) {
+  .frmRow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .frmInput {
+    width: 90%;
+  }
 }

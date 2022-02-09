@@ -28,6 +28,7 @@ html {
   justify-content: center;
 }
 .title-icons {
+  margin-top: 20px;
   flex-direction: row;
   font-size: 40px;
 }
@@ -45,4 +46,20 @@ button {
   margin: 10px;
   cursor: pointer;
   border-radius: 15px;
+}
+span {
+  margin: 10px;
+}
+.positive {
+  color: rgb(30, 180, 30);
+  text-shadow: 0 0 5px black;
+}
+.negative {
+  color: rgb(240, 41, 41);
+  text-shadow: 0 0 5px whitesmoke;
+}
+@media all and (max-width: 480px) {
+  button {
+    width: 80%;
+  }
 }

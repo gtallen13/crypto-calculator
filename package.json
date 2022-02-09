@@ -15,6 +15,7 @@
     "node-coinmarketcap": "^0.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-nextjs-toast": "^1.2.5",
     "react-select": "^5.2.2",
     "unirest": "^0.6.0"
   },
