@@ -75,6 +75,7 @@ export default function Home({coins}) {
         <div className={styles.frmRow}>
           <label className={styles.frmLabel}>Coin</label>
           <Select
+          instanceId={"cb-select-coins"}
           options={options}
           className={`${styles.frmInput} ${styles.selectInput}`}
           defaultValue={currentCoin}
